@@ -9,7 +9,7 @@ on:
   pull_request:
     paths-ignore:
       - '**.md'
-  workflow_dispatch:
+  workflow_dispatch: # yamllint disable-line rule:empty-values
 
 jobs:
   check-dist:

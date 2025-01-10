@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nginxinc/aws-marketplace-publish.git"
+    "url": "git+https://github.com/nginx/aws-marketplace-publish.git"
   },
   "keywords": [
     "actions",
