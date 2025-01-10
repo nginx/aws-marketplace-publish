@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-next-line first-line-h1 -->
-[![OpenSSFScorecard](https://api.securityscorecards.dev/projects/github.com/nginxinc/aws-marketplace-publish/badge)](https://scorecard.dev/viewer/?uri=github.com/nginxinc/aws-marketplace-publish)
+[![OpenSSFScorecard](https://api.securityscorecards.dev/projects/github.com/nginx/aws-marketplace-publish/badge)](https://scorecard.dev/viewer/?uri=github.com/nginx/aws-marketplace-publish)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 # Publish Docker images to AWS Marketplace
@@ -32,7 +32,7 @@ jobs:
           aws-region: us-east-1
 
       - name: Publish to AWS Marketplace
-        uses: nginxinc/aws-marketplace-publish@v1.0.6
+        uses: nginx/aws-marketplace-publish@v1.0.8
         with:
           product-id: ${{ secrets.AWS_MARKETPLACE_PRODUCT_ID }}
           version: ${{ replace(github.ref, 'refs/tags/', '') }}
