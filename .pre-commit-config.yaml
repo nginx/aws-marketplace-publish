@@ -20,7 +20,7 @@ repos:
         args: [--fix=lf]
 
   - repo: https://github.com/gitleaks/gitleaks
-    rev: v8.23.3
+    rev: v8.24.2
     hooks:
       - id: gitleaks
 
@@ -30,7 +30,7 @@ repos:
       - id: markdownlint-cli2
 
   - repo: https://github.com/adrienverge/yamllint.git
-    rev: v1.35.1
+    rev: v1.37.0
     hooks:
       - id: yamllint
 
