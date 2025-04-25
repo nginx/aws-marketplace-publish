@@ -30,7 +30,7 @@
     "@aws-sdk/client-marketplace-catalog": "^3.741.0"
   },
   "devDependencies": {
-    "@types/node": "^22.13.1",
+    "@types/node": "^22.15.2",
     "@typescript-eslint/eslint-plugin": "^8.23.0",
     "@typescript-eslint/parser": "^8.23.0",
     "@vercel/ncc": "^0.38.3",
