@@ -97,7 +97,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/client-marketplace-catalog@npm:^3.741.0":
+"@aws-sdk/client-marketplace-catalog@npm:^3.840.0":
   version: 3.840.0
   resolution: "@aws-sdk/client-marketplace-catalog@npm:3.840.0"
   dependencies:
@@ -2602,7 +2602,7 @@ __metadata:
   resolution: "aws-marketplace-publish@workspace:."
   dependencies:
     "@actions/core": "npm:^1.11.1"
-    "@aws-sdk/client-marketplace-catalog": "npm:^3.741.0"
+    "@aws-sdk/client-marketplace-catalog": "npm:^3.840.0"
     "@types/node": "npm:^22.15.34"
     "@typescript-eslint/eslint-plugin": "npm:^8.35.1"
     "@typescript-eslint/parser": "npm:^8.35.1"
