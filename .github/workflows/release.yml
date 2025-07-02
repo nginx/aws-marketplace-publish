@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
       - name: Create/Update Draft
-        uses: lucacome/draft-release@5d29432a46bff6c122cd4b07a1fb94e1bb158d34 # v1.1.1
+        uses: lucacome/draft-release@38def8b74645796e9743b53e0f187d4a8915ea3e # v1.2.3
         with:
           minor-label: 'enhancement'
           major-label: 'change'
