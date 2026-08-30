@@ -2616,7 +2616,7 @@ __metadata:
     "@vercel/ncc": "npm:^0.38.3"
     eslint: "npm:^9.30.0"
     eslint-config-prettier: "npm:^10.1.5"
-    eslint-plugin-jest: "npm:^29.0.1"
+    eslint-plugin-jest: "npm:^29.16.6"
     eslint-plugin-prettier: "npm:^5.5.1"
     jest: "npm:^30.0.3"
     js-yaml: "npm:^4.1.0"
@@ -3107,21 +3107,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^29.0.1":
-  version: 29.0.1
-  resolution: "eslint-plugin-jest@npm:29.0.1"
+"eslint-plugin-jest@npm:^29.16.6":
+  version: 29.16.6
+  resolution: "eslint-plugin-jest@npm:29.16.6"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.0.0"
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^8.0.0
-    eslint: ^8.57.0 || ^9.0.0
+    eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
     jest: "*"
+    typescript: ">=4.8.4 <8.0.0"
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
       optional: true
     jest:
       optional: true
-  checksum: 10c0/20edc166503a50c10b45f733797d530a5107c91efa25410ef405780d12222a796b5b41ed8f6d2b939632a1af273af6cc5732233463d1f36dbe7680bbb86c4eec
+    typescript:
+      optional: true
+  checksum: 10c0/c483057f6b7c6500c6208eb965b61fe3a81dbd86123dd1a129584ed8c490336275a8815196922c20bd4895761a7d5b993f7b37869c69d57594b522fe318def8d
   languageName: node
   linkType: hard
 
